@@ -4,7 +4,7 @@ import scrap
 import csv
 # funtion takes input: a file name to store data
 # output : scrapped data is stored in csv file it collects test match data
-def Odibatting(filename):
+def t20batting(filename):
 
     count=0
     teamscount=0
@@ -15,7 +15,7 @@ def Odibatting(filename):
 
         for i in range(0,8):
             #print(scrap.test[i])
-            tr=requests.get(scrap.odi[i])
+            tr=requests.get(scrap.t20[i])
             #print(tr.text)
             teamscount=teamscount+1
             sopu=bs4.BeautifulSoup(tr.text,'lxml')

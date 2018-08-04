@@ -31,13 +31,13 @@ def testbatting(filename):
                     ave = row.findAll('td')[6].contents
                     strike = row.findAll('td')[8].contents
                     thewritter.writerow([scrap.teams[i],first_column.a.text,runs[0].text,ave[0],strike[0]])
-                    print("{}  {}  {}  {}  {} ".format(scrap.teams[i],(first_column.a.text), (runs[0].text), (ave[0]), (strike[0])))
+                    #print("{}  {}  {}  {}  {} ".format(scrap.teams[i],(first_column.a.text), (runs[0].text), (ave[0]), (strike[0])))
                 else:
                     first_column = row.findAll('td')[0]
                     runs = row.findAll('td')[5].contents
                     ave = row.findAll('td')[7].contents
                     strike = row.findAll('td')[9].contents
                     thewritter.writerow([scrap.teams[i], first_column.a.text, runs[0].text, ave[0], strike[0]])
-                    print("{}  {}  {}  {}  {} ".format(scrap.teams[i],(first_column.a.text), (runs[0].text), (ave[0]), (strike[0])))
+                    #print("{}  {}  {}  {}  {} ".format(scrap.teams[i],(first_column.a.text), (runs[0].text), (ave[0]), (strike[0])))
     print("total teams retrived are : {} ".format(teamscount))
     print("total no of players data retrived are : {} ".format(count))
