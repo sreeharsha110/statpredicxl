@@ -26,7 +26,7 @@ def odiBowling(filename):
 
                     count=count+1
 
-                    if i==2 or i==7  or i==4 : # if and else are used to change in rows data in diffrent webpages
+                    if  i==4 : # if and else are used to change in rows data in diffrent webpages
                         first_column = row.findAll('td')[0]
                         wickets= row.findAll('td')[6].contents
                         ave = row.findAll('td')[8].contents
@@ -44,5 +44,6 @@ def odiBowling(filename):
                         #print("{}  {}  {}  {}  {}  {} ".format(scrap.teams[i],(first_column.a.text), (wickets[0].text), (ave[0]),eco[0] ,(strike[0])))
         print("total teams retrived are : {} ".format(teamscount))
         print("total no of players data retrived are : {} ".format(count))
-    except:
-        print("No internet connection cant update data")
+    except(Exception):
+        print(Exception)
+

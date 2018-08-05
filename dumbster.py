@@ -1,4 +1,4 @@
-
+import scrap
 import BattingODI
 import Battingtest
 import BowlingOdi
@@ -7,6 +7,7 @@ import Bowlingt20
 import battingt20
 import os
 
+print('lastest data collected till : {} '.format(scrap.dae))
 fnames=['testdata.csv','odidata.csv','t20data.csv','odibowldata.csv','testbowling.csv','t20bowling.csv']
 try:
     for i in fnames:

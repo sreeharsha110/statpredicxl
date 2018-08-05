@@ -1,11 +1,12 @@
 Nation,Playername,Wickets,Average,Economy,Strikerate
-England,JM Anderson,82,21.60,2.38,54.3
-England,SCJ Broad,65,31.44,2.74,68.6
+England,JM Anderson,86,21.66,2.38,54.5
+England,SCJ Broad,67,31.74,2.77,68.7
 England,MM Ali,60,41.00,3.48,70.5
-England,BA Stokes,38,27.92,3.09,54.2
-England,AU Rashid,30,35.66,3.72,57.4
+England,BA Stokes,44,26.68,3.11,51.3
+England,AU Rashid,33,33.63,3.71,54.3
 England,CR Woakes,30,44.50,3.12,85.4
 England,TS Roland-Jones,17,19.64,3.73,31.5
+England,SM Curran,7,19.28,3.63,31.8
 England,LA Dawson,7,42.57,3.39,75.1
 England,C Overton,7,42.28,3.52,72.0
 England,JE Root,6,39.16,3.00,78.1
@@ -15,7 +16,6 @@ England,MA Wood,5,78.40,3.09,151.8
 England,GJ Batty,4,45.25,3.39,80.0
 England,DM Bess,3,40.33,3.82,63.3
 England,JT Ball,2,127.50,3.80,201.0
-England,SM Curran,2,21.50,3.03,42.5
 England,TK Curran,2,100.00,3.03,198.0
 England,MJ Leach,2,56.50,2.21,153.0
 England,MS Crane,1,193.00,4.02,288.0
@@ -130,17 +130,17 @@ Newzealand,JA Raval,-,-,-,-
 Newzealand,L Ronchi,-,-,-,-
 Newzealand,LRPL Taylor,-,-,-,-
 Newzealand,BJ Watling,-,-,-,-
-INDIA,R Ashwin,133,25.66,2.86,53.8
+INDIA,R Ashwin,140,25.25,2.85,53.1
 INDIA,RA Jadeja,103,22.67,2.37,57.3
-INDIA,Mohammed Shami,59,23.54,3.00,47.0
-INDIA,UT Yadav,45,35.84,3.26,65.8
-INDIA,I Sharma,36,26.88,2.80,57.4
+INDIA,Mohammed Shami,62,24.04,3.01,47.8
+INDIA,UT Yadav,48,35.18,3.26,64.7
+INDIA,I Sharma,42,25.35,2.84,53.5
 INDIA,B Kumar,34,18.50,2.62,42.2
 INDIA,JJ Bumrah,14,25.21,3.14,48.0
 INDIA,J Yadav,11,33.36,3.51,57.0
 INDIA,Kuldeep Yadav,9,20.77,3.22,38.6
 INDIA,A Mishra,8,50.37,3.61,83.5
-INDIA,HH Pandya,7,40.14,3.05,78.8
+INDIA,HH Pandya,7,46.71,3.20,87.4
 INDIA,V Kohli,0,-,2.76,-
 INDIA,KK Nair,0,-,5.50,-
 INDIA,RG Sharma,0,-,5.00,-
